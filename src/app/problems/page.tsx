@@ -11,8 +11,6 @@ import { useSearchParams } from 'next/navigation';
 const problems = ProblemList();
 
 const Problems = () => {
-  const searchParams = useSearchParams();
-  const level = searchParams.get('level') || '';
   
   return (
     <div className='width_small'>
@@ -24,7 +22,6 @@ const Problems = () => {
           {
             problems.map(item => {
               const href = `/problems/${item.id}`
-              if (level === '' || item.level == level) {
                 return (
                 <Link className='problem_display' href={href} key={item.id}>
                   <div className="problem_frame">
@@ -34,7 +31,6 @@ const Problems = () => {
                   </div>
                 </Link>
                 )
-              }
             })
           }
         </div>
