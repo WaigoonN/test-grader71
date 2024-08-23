@@ -6,7 +6,8 @@ const Home = () => {
     return (
         <div className='width_normal'>
             <p className="topic">Tenz Tour&apos;s Official Website</p>
-            <p style={{fontSize: "1.5em"}}>Totally not a scam Nagorn Phongphasura copied my idea btw</p>
+            <p style={{fontSize: "1.5em"}}>Totally not a scam</p>
+            <p>Nagornstole my idea btw</p>
             <hr></hr>
 
             <a href='https://youtu.be/QB7ACr7pUuE?si=G8EdFbi0d6af9_Rx' style={{textDecoration:"none"}}>
