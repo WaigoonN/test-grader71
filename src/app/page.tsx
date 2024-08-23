@@ -11,8 +11,8 @@ const Home = () => {
             <hr></hr>
 
             <a href='https://youtu.be/QB7ACr7pUuE?si=G8EdFbi0d6af9_Rx' style={{textDecoration:"none"}}>
-                <div style={{backgroundColor:"gray", width:"300px", marginLeft:"auto", marginRight:"auto", marginTop:"50px", fontSize:"20px", paddingTop:"5px", paddingBottom:"5px", borderRadius: "7px", color:"white"}}>
-                    Click me to book a trip
+                <div style={{backgroundColor:"gray", width:"200px", marginLeft:"auto", marginRight:"auto", marginTop:"50px", fontSize:"20px", paddingTop:"5px", paddingBottom:"5px", borderRadius: "7px", color:"white"}}>
+                    Book a trip
                 </div>
             </a>
         </div>
